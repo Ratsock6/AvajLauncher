@@ -3,19 +3,19 @@
 # =========================
 
 # --- Configurable vars ---
-JAVAC      ?= javac
-JAVA       ?= java
-FIND       ?= find
+JAVAC      = javac
+JAVA       = java
+FIND       = find
 
-SRC_DIR    ?= src
-OUT_DIR    ?= out
-SRC_LIST   ?= sources.txt
+SRC_DIR    = src
+OUT_DIR    = out
+SRC_LIST   = sources.txt
 
 # Classe principale (package complet)
-MAIN_CLASS ?= fr.aallouv.avajlauncher.AvajLauncher
+MAIN_CLASS = fr.aallouv.avajlauncher.AvajLauncher
 
 # Fichier scénario (modifiable à l'appel)
-SCENARIO   ?= scenario.txt
+SCENARIO   = scenario.txt
 
 # --- Phony targets ---
 .PHONY: all compile run clean fclean re help check
